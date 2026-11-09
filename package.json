@@ -1,0 +1,17 @@
+{
+  "name": "midas-precheck",
+  "version": "0.1.0",
+  "description": "Check MiCA MIDAS submission files (CryptoAssetRecordKeeping / CryptoAssetOrderBook) against ESMA's published naming rule, JSON schemas and MET/QUA validation rules — on your own machine.",
+  "license": "Apache-2.0",
+  "author": "Intellectum Lab (Gazolin Production SRL) <viktor@intellectumlab.com>",
+  "homepage": "https://intellectumlab.com/midas-precheck.html",
+  "repository": { "type": "git", "url": "https://github.com/intellectumlab/midas-precheck.git" },
+  "bugs": { "url": "https://github.com/intellectumlab/midas-precheck/issues" },
+  "keywords": ["MiCA", "MIDAS", "ESMA", "CASP", "auth.117", "auth.118", "RTS 2025/1140", "order book", "record keeping", "json-schema", "regtech"],
+  "bin": { "midas-precheck": "bin/midas-precheck.js" },
+  "main": "lib/precheck.js",
+  "files": ["bin/", "lib/", "schemas/", "LICENSE", "NOTICE", "README.md"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node test/test.js" },
+  "dependencies": { "ajv": "8.17.1" }
+}

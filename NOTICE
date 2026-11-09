@@ -1,0 +1,16 @@
+midas-precheck
+Copyright 2026 Intellectum Lab (Gazolin Production SRL)
+
+This product includes material published by the European Securities and
+Markets Authority (ESMA), reproduced for reproducibility with attribution:
+
+- schemas/auth117.schema.json, schemas/auth118.schema.json — from
+  "MiCA order book and records keeping message specifications",
+  ESMA65-955014868-15160 (November 2025). Content unchanged; whitespace removed.
+- test/fixtures/esma_midas_recordkeeping.json, test/fixtures/esma_midas_orderbook.json,
+  test/fixtures/esma_midas_feedback_sample.csv — samples published with
+  "Reporting Instructions — MIDAS System", ESMA65-955014868-17690 (21 October 2026).
+
+ESMA is not affiliated with this project and has not reviewed it.
+The rule implementation in lib/precheck.js is Intellectum Lab's reading of
+the public instructions, not ESMA's validator.

@@ -1,0 +1,3946 @@
+{
+  "Document": {
+    "CrptAsstOrdrBookRpt": {
+      "RptHdr": {
+        "RptgNtty": {
+          "LEI": "R0MUWSFPU8XXXO8K5P83"
+        },
+        "RptgPrd": {
+          "Dt": "1900-01-01"
+        },
+        "DgtlTknIdr": [
+          {
+            "DTI": "80W43TV26"
+          },
+          {
+            "DTI": "BL6GMJNDW"
+          }
+        ]
+      },
+      "OrdrRpt": {
+        "New": {
+          "RptId": "DUMMY-REPORT-ID-000001",
+          "Ordr": [
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:03:47.549",
+                "SeqNb": "1",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "NEWO"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.032",
+                "SeqNb": "2",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.29796175"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090594726",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "0.5"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.105",
+                "SeqNb": "3",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "115.08622375"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090594758",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "7.711738"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.165",
+                "SeqNb": "4",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "114.17713285"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090156906",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "8.6208289"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.212",
+                "SeqNb": "5",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "108.1181274"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887086688338",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "14.67983435"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.235",
+                "SeqNb": "6",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "107.38414017"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090594712",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "15.41382158"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.310",
+                "SeqNb": "7",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "92.38414017"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887089541910",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "30.41382158"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.408",
+                "SeqNb": "8",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "77.33575647"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090156892",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "45.46220528"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.479",
+                "SeqNb": "9",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "70.72720647"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887089998082",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "52.07075528"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.536",
+                "SeqNb": "10",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "68.02907094"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090156948",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "54.76889081"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.608",
+                "SeqNb": "11",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "67.60784094"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887086688324",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "55.19012081"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.622",
+                "SeqNb": "12",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "67.50784094"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090156934",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "55.29012081"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.684",
+                "SeqNb": "13",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "67.24182817"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090156962",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "55.55613358"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.741",
+                "SeqNb": "14",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "67.14182817"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090594744",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "55.65613358"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.860",
+                "SeqNb": "15",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "17.14182817"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887086688352",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "105.65613358"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:47.939",
+                "SeqNb": "16",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "11.16345107"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321887090156920",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "111.63451068"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0000000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:52.552",
+                "SeqNb": "17",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321887089541910",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:52.552",
+                "EvtTp": {
+                  "Cd": "CAME"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.05500000"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "122.79796175"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "0"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:55.419",
+                "SeqNb": "18",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "NEWO"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:55.419",
+                "SeqNb": "19",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "304.38083947"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321895392319176",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "0.76916053"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:56.021",
+                "SeqNb": "20",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "304.22859699"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321896243702800",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "0.92140301"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:56.639",
+                "SeqNb": "21",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "302.92867029"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321896998282254",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "2.22132971"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:57.025",
+                "SeqNb": "22",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "302.6214743"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321897652984210",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "2.5285257"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:57.202",
+                "SeqNb": "23",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "301.51957705"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321897456575410",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "3.63042295"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:57.271",
+                "SeqNb": "24",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "271.44592527"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321897544621434",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "33.70407473"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:57.534",
+                "SeqNb": "25",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "241.37227349"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321897325467662",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "63.77772651"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:57.979",
+                "SeqNb": "26",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "211.29862171"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321897326837868",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "93.85137829"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:58.003",
+                "SeqNb": "27",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "181.22496993"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321898875805310",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "123.92503007"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:58.564",
+                "SeqNb": "28",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "151.15131815"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321898875912324",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "153.99868185"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:58.876",
+                "SeqNb": "29",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "136.33628808"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321898874543168",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "168.81371192"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:58.994",
+                "SeqNb": "30",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "121.07766637"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321898874543154",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "184.07233363"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:59.075",
+                "SeqNb": "31",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "12.01766637"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321899727782730",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "293.13233363"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:04:59.314",
+                "SeqNb": "32",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "80W43TV26"
+                  }
+                },
+                "OrdrId": "Ord_1779321895392319176",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:04:59.314",
+                "EvtTp": {
+                  "Cd": "FILL"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "BUYI",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "0"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779321899727782716",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "80W43TV26"
+                      },
+                      "Unit": "305.15"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "AGRE",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "HYPE/USDC"
+                        },
+                        "Unit": "55.0900000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:30:39.387",
+                "SeqNb": "33",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "NEWO"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:31:39.387",
+                "SeqNb": "34",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "2695.33752959"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779323499098047756",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "401.16999744"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "PASV",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.7830000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:31:39.854",
+                "SeqNb": "35",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "2319.41701029"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779323499841761528",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "777.09051674"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "PASV",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.7830000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:31:41.299",
+                "SeqNb": "36",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "1938.70733198"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779323501844742758",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "1157.80019505"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "PASV",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.7830000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:31:42.081",
+                "SeqNb": "37",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "1582.90716674"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779323502517864890",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "1513.60036029"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "PASV",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.7830000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:31:42.285",
+                "SeqNb": "38",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "1101.05454746"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779323502974957542",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "1995.45297957"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "PASV",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.7830000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:31:44.879",
+                "SeqNb": "39",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "PARF"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "538.44864818"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779323504978754888",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "2558.05887885"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "PASV",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.7830000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "OrdrIdData": {
+                "TmStmp": "2026-05-21T00:31:45.599",
+                "SeqNb": "40",
+                "OrdrBookId": "DUMMY-ORDER-BOOK-ID",
+                "TradVn": "PGSL",
+                "CrptAsst": {
+                  "DgtlTknIdr": {
+                    "DTI": "BL6GMJNDW"
+                  }
+                },
+                "OrdrId": "Ord_1779323499098047756",
+                "VldtyPrd": {
+                  "VldtyPrdCd": "GTCV"
+                },
+                "VldtyDtTm": "2026-05-21T00:31:45.599",
+                "EvtTp": {
+                  "Cd": "FILL"
+                }
+              },
+              "OrdrData": {
+                "Clnt": {
+                  "XcptnId": "NOAP"
+                },
+                "NonExctgBrkr": {
+                  "PtyXcptn": "NOAP"
+                },
+                "TradgCpcty": "DEAL",
+                "OrdrClssfctn": {
+                  "OrdrTpClssfctn": "LMTO"
+                },
+                "OrdrPrics": {
+                  "LmtPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.78221700"
+                      }
+                    }
+                  },
+                  "StopPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "AddtlLmtPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  },
+                  "PggdPric": {
+                    "NoPric": {
+                      "Pdg": "NOAP"
+                    }
+                  }
+                },
+                "InstrData": {
+                  "BuySellInd": "SELL",
+                  "InitlQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "RmngQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "0"
+                    }
+                  },
+                  "PssvOnlyInd": "false"
+                },
+                "TxData": {
+                  "TxId": "1779323505876772746",
+                  "TraddQty": {
+                    "DgtlTknQty": {
+                      "Idr": {
+                        "DTI": "BL6GMJNDW"
+                      },
+                      "Unit": "3096.50752703"
+                    }
+                  },
+                  "PssvOrAggrssvInd": "PASV",
+                  "TxPric": {
+                    "DgtlTknPric": {
+                      "DgtlTknQty": {
+                        "Idr": {
+                          "DTIShrtNm": "RAY/USDC"
+                        },
+                        "Unit": "0.7830000000000"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
