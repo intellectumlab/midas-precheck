@@ -98,6 +98,10 @@ t('MET-008 validity before event', () => { const d = clone(ob); first(d, 'NEWO')
 t('QUA-007 passive/aggressive on CAME', () => { const d = clone(ob); const o = first(d, 'CAME'); o.OrdrData.TxData = Object.assign({}, o.OrdrData.TxData, { PssvOrAggrssvInd: 'PASV' }); const c = codes(run(OBN, d)); console.log('    (PA on CAME ->', [...new Set(c)].join(','), ')'); assert(c.includes('QUA-007') || c.includes('FIL-102')); });
 t('MET-005 duplicate order event', () => { const d = clone(ob); orders(d).push(clone(orders(d)[0])); assert(codes(run(OBN, d)).includes('MET-005')); });
 t('CSV output has MIDAS columns', () => assert(P.toCsv(base2.rows).startsWith(fs.readFileSync(path.join(__dirname, 'fixtures/esma_midas_feedback_sample.csv'), 'utf8').replace(/^\uFEFF/, '').split(/\r?\n/)[0])));
+t('CSV neutralises formulas from untrusted values', () => {
+  const csv = P.toCsv([{ SubmittedValue: '=HYPERLINK("http://x")', ValidationReason: '+1', Field: '@a' }]);
+  assert(csv.includes("\"'=HYPERLINK(\"\"http://x\"\")\"") && csv.includes(",'+1,") && csv.includes("'@a"), csv);
+});
 console.log(n, 'tests passed');
 
 // --- CLI
